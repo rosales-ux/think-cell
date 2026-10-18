@@ -1,0 +1,117 @@
+{
+  "app": "RV Chart Studio",
+  "version": 2,
+  "savedAt": "2026-10-18T00:00:00.000Z",
+  "nota": "Datos ilustrativos",
+  "state": {
+    "version": 2,
+    "type": "columnas",
+    "title": "Real supera al presupuesto en 3 de 4 trimestres",
+    "subtitle": "Real, Presupuesto y Adicional por trimestre (ilustrativo)",
+    "unit": "US$ miles",
+    "source": "Datos ilustrativos; no corresponden a una empresa real.",
+    "decimals": 0,
+    "showValues": true,
+    "showGrid": true,
+    "connColor": "#1B3A5C",
+    "palette": 1,
+    "texture": "mixta",
+    "series": [
+      {
+        "name": "Real",
+        "color": null
+      },
+      {
+        "name": "Presupuesto",
+        "color": null
+      },
+      {
+        "name": "Adicional",
+        "color": "#C2882F"
+      }
+    ],
+    "cats": [
+      {
+        "name": "T1",
+        "kind": "cambio",
+        "values": [
+          120,
+          110,
+          15
+        ]
+      },
+      {
+        "name": "T2",
+        "kind": "cambio",
+        "values": [
+          135,
+          130,
+          -8
+        ]
+      },
+      {
+        "name": "T3",
+        "kind": "cambio",
+        "values": [
+          128,
+          140,
+          0
+        ]
+      },
+      {
+        "name": "T4",
+        "kind": "cambio",
+        "values": [
+          150,
+          145,
+          22
+        ]
+      }
+    ],
+    "conns": [
+      {
+        "id": 1,
+        "from": {
+          "c": 0,
+          "s": 0
+        },
+        "to": {
+          "c": 3,
+          "s": 0
+        },
+        "mode": "ambos",
+        "text": "Real T1 → T4",
+        "adj": 0
+      },
+      {
+        "id": 2,
+        "from": {
+          "c": 2,
+          "s": 1
+        },
+        "to": {
+          "c": 2,
+          "s": 0
+        },
+        "mode": "valor",
+        "text": "",
+        "adj": 0
+      },
+      {
+        "id": 3,
+        "from": {
+          "c": 0,
+          "s": -1
+        },
+        "to": {
+          "c": 3,
+          "s": -1
+        },
+        "mode": "pct",
+        "text": "Total T1 → T4",
+        "adj": 0
+      }
+    ],
+    "nextId": 4
+  }
+}
